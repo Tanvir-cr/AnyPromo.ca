@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AnyPromo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Contact-us.css">
+</head>
+<body>
+
+    <section class="contact-section">
+        <h1 class="main-title">Contact Us</h1>
+
+        <div class="contact-container">
+            <div class="form-card">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <div class="input-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Your Number">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <input type="text" placeholder="Subject" class="full-width">
+                    
+                    <div class="dept-options">
+                        <span>Sales</span>
+                        <span>Fundraising</span>
+                        <span>Art</span>
+                        <span>Webmaster</span>
+                    </div>
+
+                    <textarea placeholder="Your message..."></textarea>
+
+                    <div class="file-upload">
+                        <input type="file" id="file-input">
+                        <p>File size is up to 20M. Acceptable formats are JPG, GIF, BMP, PDF, etc.</p>
+                    </div>
+
+                    <div class="captcha">
+                        <input type="checkbox" id="robot"> <label for="robot">I'm not a robot</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="icon-circle blue"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Call Us</h3>
+                    <p>Toll Free</p>
+                    <a href="tel:8888888586">(888)888-8586</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-circle pink"><i class="far fa-envelope"></i></div>
+                    <h3>Email Support</h3>
+                    <p>Email us at</p>
+                    <a href="mailto:info@anypromo.ca">info@anypromo.ca</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-circle pink"><i class="far fa-envelope"></i></div>
+                    <h3>Email Support</h3>
+                    <p>Email us at</p>
+                    <a href="mailto:info@anypromo.ca">info@anypromo.ca</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-circle orange"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Visit Us</h3>
+                    <p>6060 SILVER DR <br> BURNABY, BC V5H 0H5</p>
+                    <a href="#" class="directions">Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
