@@ -133,6 +133,11 @@ body {
   background-image: url("image/flat-lay-composition-different-sized-plates 1.jpg");
   background-size: cover;
   background-position: center;
+  transition: transform 0.3s ease;
+}
+.image-section:hover {
+  transform: scale(1.049);
+    filter: grayscale(0%);
 }
 
 
@@ -435,6 +440,23 @@ textarea {
     cursor: pointer;
 }
 
+.submit-btn:hover {
+    background-color: #ff6d00;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 77, 0, 0.3);
+}
+
+.info-card {
+    background: white;
+    padding: 30px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-grid {
     flex: 1;
     display: grid;
@@ -451,6 +473,11 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .icon-circle {
