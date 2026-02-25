@@ -505,6 +505,124 @@ textarea {
     font-weight: 600;
 }
 
+.main-footer {
+    border-top: 1px solid #1a365d;
+    padding-top: 40px;
+    background-color: #fff;
+    color: #333;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 120px;
+}
+
+.footer-left {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 40px;
+}
+
+.footer-logo { height: 30px; margin-bottom: 20px; }
+
+.newsletter-text { font-size: 14px; margin-bottom: 15px; }
+
+.newsletter-box input {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.follow-us {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons { display: flex; gap: 10px; font-size: 20px; }
+
+.flags-payment { margin-top: 25px; }
+.flags { display: flex; gap: 10px; margin-bottom: 15px; }
+.flags img { width: 35px; }
+.payment-cards { display: flex; gap: 10px; opacity: 0.6; }
+.payment-cards img { width: 45px; }
+
+.footer-right {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+.link-column h3 {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.link-column ul { list-style: none; }
+.link-column ul li { margin-bottom: 10px; }
+.link-column ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+.link-column ul li a:hover {
+    color: #2b6cff;
+    transition: color 0.3s;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+}
+
+.footer-bottom h2 {
+    color: #6c7da5;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.footer-bottom p {
+    color: #999;
+    font-size: 13px;
+}
+
+
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-left {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+    .footer-right {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-right {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-bottom h2 {
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 1024px) {
     .contact-container {
